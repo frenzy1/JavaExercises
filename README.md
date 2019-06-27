@@ -3,6 +3,7 @@
 - [2. Java Scanner](#2-java-scanner)
 - [3. Scanner Data Type Methods](#3-scanner-data-type-methods)
 - [4. Operators](#4-operators)
+- [5. Exercises](#5-exercises)
 
 ## 1. Java Starter Code
 ```java
@@ -57,3 +58,6 @@ x = sc.nextLine();
 |&&|Logical AND|
 |\|\||Logical OR|
 |!|Logical NOT. Cái này lấy giá trị đảo. T -> F. F -> T|
+
+## 5. Exercises
+## [Triangle](https://github.com/longphung/JavaExercises/blob/master/Triangle.md)
