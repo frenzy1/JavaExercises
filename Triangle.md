@@ -5,3 +5,43 @@ Cho chiều dài 3 cạnh tam giác là a b c số Nguyên Dương:
 4. Tam giác vuông?
 5. Tam giác bình thường?
 
+### Câu lệnh `if () {} else {}`
+```java
+if () {
+	// code if TRUE
+} else {
+	// code if FALSE
+}
+```
+### Cấu trúc `else if`
+```java
+if (condition1) {
+	// code ...
+} else if (condition2) {
+	// code ...
+} else if (condition3) {
+	// code ...
+}
+```
+
+**Ví dụ**: Chương trình xét điểm thi
+```java
+double grade = 90;
+
+if (grade < 50) {
+	System.out.println("Failed");
+} else if (grade < 65) {
+	System.out.println("Passed");
+} else if (grade < 75) {
+	System.out.println("Credit");
+} else if (grade < 85) {
+	System.out.println("Distinction");
+} else {
+	System.out.println("High Distinction");
+}
+```
+
+**Expected Output:** `High Distinction`
+
+
+
