@@ -2,6 +2,7 @@
 - [1. Java Starter Code](#1-java-starter-code)
 - [2. Java Scanner](#2-java-scanner)
 - [3. Scanner Data Type Methods](#3-scanner-data-type-methods)
+- [4. Arithmetic Operators](#4-arithmetic-operators)
 
 ## 1. Java Starter Code
 ```java
@@ -37,3 +38,14 @@ x = sc.nextLine();
 |String|nextLine()|
 |long|nextLong()|
 |short|nextShort()|
+
+## 4. Arithmetic Operators
+|Operator|Description|Example|
+|---|---|---|
+|+| Cộng 2 số|`a + b`|
+|-| Trừ 2 số|`a - b`|
+|\*| Nhân 2 số|`a * b`|
+|\/| Chia 2 số|`a / b`|
+|%| Chia lấy phần dư |`a % b`|
+|++| Thêm 1|`i++`|
+|--| Trừ 1|`i--`|
