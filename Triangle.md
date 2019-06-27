@@ -32,18 +32,25 @@ double grade = 90;
 
 if (grade < 50) {
 	System.out.println("Failed");
-} else if (grade < 65) {
+} else if (grade < 65) { 
+	// nếu grade >= 50, và grade < 65
+	// 50 <= grade < 65
 	System.out.println("Passed");
 } else if (grade < 75) {
+	// nếu grade >= 65, và grade < 75
+	// 65 <= grade < 75
 	System.out.println("Credit");
 } else if (grade < 85) {
+	// nếu grade >= 75, và grade < 85
+	// 75 <= grade < 85
 	System.out.println("Distinction");
 } else {
+	// nếu grade >= 85
 	System.out.println("High Distinction");
 }
 ```
 
 **Expected Output:** `High Distinction`
-
+**Note:** Chương trình vẫn sẽ hiện `High Distinction` nếu grade > 100, nhưng trong thực tế tổng điểm 100 là cao nhất. Ngược lại, nếu grade âm thì kết quả sẽ ra `Failed` nhưng trên thực tế 0 là thấp nhất. 
 
 
