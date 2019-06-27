@@ -2,7 +2,7 @@
 - [1. Java Starter Code](#1-java-starter-code)
 - [2. Java Scanner](#2-java-scanner)
 - [3. Scanner Data Type Methods](#3-scanner-data-type-methods)
-- [4. Arithmetic Operators](#4-arithmetic-operators)
+- [4. Operators](#4-operators)
 
 ## 1. Java Starter Code
 ```java
@@ -39,7 +39,8 @@ x = sc.nextLine();
 |long|nextLong()|
 |short|nextShort()|
 
-## 4. Arithmetic Operators
+## 4. Operators
+### Arithmetic Operators
 |Operator|Description|Example|
 |---|---|---|
 |+| Cộng 2 số|`a + b`|
@@ -49,3 +50,10 @@ x = sc.nextLine();
 |%| Chia lấy phần dư |`a % b`|
 |++| Thêm 1|`i++`|
 |--| Trừ 1|`i--`|
+
+### Logical Operators
+|Operator|Description|
+|---|---|
+|&&|Logical AND|
+|\|\||Logical OR|
+|!|Logical NOT. Cái này lấy giá trị đảo. T -> F. F -> T|
