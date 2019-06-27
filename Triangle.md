@@ -51,6 +51,7 @@ if (grade < 50) {
 ```
 
 **Expected Output:** `High Distinction`
+
 **Note:** Chương trình vẫn sẽ hiện `High Distinction` nếu grade > 100, nhưng trong thực tế tổng điểm 100 là cao nhất. Ngược lại, nếu grade âm thì kết quả sẽ ra `Failed` nhưng trên thực tế 0 là thấp nhất. 
 
 
