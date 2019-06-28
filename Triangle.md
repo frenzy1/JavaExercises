@@ -5,7 +5,7 @@ Cho chiều dài 3 cạnh tam giác là a b c số Nguyên Dương:
 4. Tam giác vuông?
 5. Tam giác bình thường?
 
-## [Java Guide](https://github.com/longphung/JavaExercises)
+## [Java Guide](https://github.com/longphung/JavaExercises/blob/master/README.md)
 
 ### Câu lệnh `if () {} else {}`
 ```java
