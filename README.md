@@ -64,4 +64,5 @@ x = sc.nextLine();
 |!|Logical NOT. Cái này lấy giá trị đảo. T -> F. F -> T|
 
 ## 5. Exercises
-[1. Triangle](https://github.com/longphung/JavaExercises/blob/master/Triangle.md)
+[1. Triangle](Triangle.md)
+[2. Loop Exercises](LoopExercises.md)
