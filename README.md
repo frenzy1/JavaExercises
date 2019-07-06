@@ -6,8 +6,9 @@
 - [5. Exercises](#5-exercises)
 
 ## 1. Java Starter Code
+Basic boilerplate for java programs.
 ```java
-public class [FileName]
+public class <FileName>
 {
 	public static void main (String[] args)
 	{
@@ -17,6 +18,7 @@ public class [FileName]
 ```
 
 ## 2. Java Scanner
+Scanners are used for reading users input (`System.in`).
 ### Step 1: `import java.util.*;` at start of file
 ```java
 import java.util.*;
