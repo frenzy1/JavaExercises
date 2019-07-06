@@ -127,7 +127,9 @@ for (câu lệnh 1; câu lệnh 2; câu lệnh 3) {
 }
 ```
 **câu lệnh 1:** câu này được thực hiện **1 lần trước khi bắt đầu lặp.**
+
 **câu lệnh 2:** câu này để chỉ **điều kiện để vòng lặp được tiếp tục.**
+
 **câu lệnh 3:** câu này được thực hiện **sau mỗi vòng lặp**
 
 **Ví dụ:**
@@ -138,8 +140,11 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 **câu lệnh 1:** mình đặt biến `i = 0`.
+
 **câu lệnh 2:** code sẽ được lặp khi `i < 10`.
+
 **câu lệnh 3:** tăng `i` 1 đơn vị sau mỗi vòng lặp.
+
 Bảng giá trị của `i` trong chương trình trên:
 
 |Giá trị của `i`|Tổng số lần `"i = " + i + "Hello World!"` được in|
