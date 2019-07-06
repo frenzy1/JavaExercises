@@ -8,7 +8,7 @@ Cho chiều dài 3 cạnh tam giác là a b c số Nguyên Dương:
 ## [Java Guide](https://github.com/longphung/JavaExercises/blob/master/README.md)
 
 ### Câu lệnh `if () {} else {}`
-![conditional structure diagram](./images/conditional.png)
+![conditional structure diagram](./images/conditional.png =332x324)
 
 *Image from Wikipedia*
 
@@ -21,7 +21,7 @@ if (condition) {
 }
 ```
 ### Cấu trúc `else if`
-![nested ifs diagram](./images/nested-ifs.png)
+![nested ifs diagram](./images/nested-ifs.png =400x310)
 
 *Image from Wikipedia*
 ```java
