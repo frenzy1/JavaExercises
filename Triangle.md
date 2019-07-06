@@ -8,21 +8,38 @@ Cho chiều dài 3 cạnh tam giác là a b c số Nguyên Dương:
 ## [Java Guide](https://github.com/longphung/JavaExercises/blob/master/README.md)
 
 ### Câu lệnh `if () {} else {}`
+![conditional structure diagram](./images/conditional.png)
+*Image from Wikipedia*
+
+Conditional statements are statements that executes different blocks of codes depending on whether *condition* is  *true* or *false*. In the flow chart above, B is executed if A is *true* and C is executed if A is *false*.
 ```java
-if () {
+if (condition) {
 	// code if TRUE
 } else {
 	// code if FALSE
 }
 ```
 ### Cấu trúc `else if`
+![nested ifs diagram](./images/nested-ifs.png)
+*Image from Wikipedia*
 ```java
 if (condition1) {
 	// code ...
+	// This is run if condition1 is true
 } else if (condition2) {
 	// code ...
+	// This is run if 
+	// condition1 is false and
+	// condition2 is true.
 } else if (condition3) {
 	// code ...
+	// This is run if
+	// condition1 is false and,
+	// condition2 is false and,
+	// condition3 is true.
+} else {
+	// code ...
+	// This is run if all the conditions are false.
 }
 ```
 
