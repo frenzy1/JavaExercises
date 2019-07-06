@@ -65,4 +65,5 @@ x = sc.nextLine();
 
 ## 5. Exercises
 [1. Triangle](Triangle.md)
+
 [2. Loop Exercises](LoopExercises.md)
