@@ -141,6 +141,7 @@ for (int i = 0; i < 10; i++) {
 **câu lệnh 2:** code sẽ được lặp khi `i < 10`.
 **câu lệnh 3:** tăng `i` 1 đơn vị sau mỗi vòng lặp.
 Bảng giá trị của `i` trong chương trình trên:
+
 |Giá trị của `i`|Tổng số lần `"i = " + i + "Hello World!"` được in|
 |---|---|
 |0|1|
@@ -153,6 +154,7 @@ Bảng giá trị của `i` trong chương trình trên:
 |7|8|
 |8|9|
 |9|10|
+
 Vòng lặp dừng lại tại `i = 9` tại vì sau khi `"i = " + i + "Hello World!"` được in lần thứ 10. `i++` => `i = 10`, điều này trái với câu điều kiện `i < 10` mình đặt trong **câu lệnh 2**.
 
 **Note:** khi lập trình mình thường đặt biến trong vòng lập `for ()` là `i` (viết tắt cho index), và thường bắt đầu ở 0. Do tập hợp (array) bắt đầu đếm ở vị trí 0. Và cũng cho dễ nhận biết điều kiện thoát (exit condition) của `for ()` là gì. Ví dụ, trong chương trình trên mình đặt **câu lệnh 1** là `i = 0`, **câu lệnh 2** là `i < 10` để chương trình lặp lại 10 lần. Nếu mình bắt đầu ở `i = 1` thì chương trình chỉ được lặp 9 lần thôi. Bảng ở dưới chứng mình điều đó:
@@ -176,6 +178,7 @@ for (int i = 1; i <= 10; i++) {
 }
 ```
 Bảng so sánh:
+
 |Giá trị của `i`|Tổng số lần `"i = " + i + "Hello World!"` được in|
 |---|---|
 |1|1|
