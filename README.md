@@ -5,6 +5,8 @@
 - [4. Operators](#4-operators)
 - [5. Exercises](#5-exercises)
 
+***Mấy cái định nghĩa bằng tiếng Việt e không chắc đúng hay ko nên ghi tiếng Anh, sau này e ghi định nghĩa bằng tiếng Anh luôn cho dễ đọc.***
+
 ## 1. Java Starter Code
 Basic boilerplate for java programs.
 ```java
