@@ -1,5 +1,5 @@
 # Cấu trúc vòng lặp
-Bao gồm chuỗi câu lệnh (code blocks) có thể được lặp lại nhiều lần (hoặc vĩnh viễn). Lúc lập trình mình nên để ý coi vòng lặp của mình có khả năng lặp vĩnh viễn hay không, nếu mình không có ý định cho nó lặp vĩnh viễn; chi tiết thêm trong ví dụ. Có 2 dạng chính: [`while ()`](#1-while) và [`do...while ()`](#2-do-while). Còn một dạng khác là [`for ()`](#3-for) gần giống với `do...while ()`. Theo kinh nghiệm của mình thì `for ()` sẽ được xài nhiều hơn, chủ yếu để lặp qua các [tập hợp (array).](Array.md)
+Cấu trúc vòng lặp bao gồm chuỗi câu lệnh (code blocks) có thể được lặp lại nhiều lần (hoặc vĩnh viễn). Lúc lập trình mình nên để ý coi vòng lặp của mình có khả năng lặp vĩnh viễn hay không, ngay cả khi mình có ý định cho nó lặp vĩnh viễn; chi tiết thêm trong ví dụ. Có 2 dạng chính: [`while ()`](#1-while) và [`do...while ()`](#2-do-while). Còn một dạng khác là [`for ()`](#3-for) gần giống với `do...while ()`. Theo kinh nghiệm của mình thì `for ()` sẽ được xài nhiều hơn, chủ yếu để lặp qua các [tập hợp (array).](Array.md)
 
 [Bài tập về cấu trúc lặp.](LoopExercises.md)
 
@@ -13,14 +13,15 @@ Vòng lặp `while` thực hiện chuỗi câu lệnh (code blocks) cho tới kh
 Vòng lặp `while` có thể được hiểu như cấu trúc if được lập lại nhiều lần.
 
 Cấu trúc `while`:
+
     1. kiểm tra A
     2. A *true*
-    3. thực hiện B
-    4. kiểm tra A
-    5. A *true*
-    6. thực hiện B
-    7. kiểm tra A
-    8. A *false*
+    3. thực hiện B    
+    4. kiểm tra A   
+    5. A *true*   
+    6. thực hiện B   
+    7. kiểm tra A  
+    8. A *false*   
     9. exit()
 
 ### Trong Java 
@@ -80,6 +81,7 @@ Hello World!
 Khác với vòng lặp `while`, `do...while` sẽ thực hiện code block bên trong ít nhất 1 lần trước khi kiểm tra *condition*. Trong flow chart ở trên, câu lệnh B được thực hiện, sau đó điệu kiện A mới được kiểm tra. Nếu A *true* thì quay trở lại thực hiện B, A *false* thì thoát vòng lặp.
 
 Cấu trúc `do...while`:
+
     1. thực hiện B
     2. kiểm tra A
     3. A *false*
@@ -112,7 +114,7 @@ do {
 } while (!validInput); // lưu ý dấu chắm thang --- ! --- ở đây mình lặp khi validInput là false.
 ```
 
-**Note:** vòng lặp này sẽ lặp vĩnh viễn khi và chỉ khi người dùng luôn luôn nhập x sai (x < 1 || x > 10)
+**Note:** vòng lặp này sẽ lặp vĩnh viễn khi và chỉ khi người dùng luôn luôn nhập x sai (`x < 1 || x > 10`)
 
 ## 3. For
 Cấu trúc `for ()` là cấu trúc lặp có giới hạn. Cấu trúc này yêu cầu một biến thuộc số tự nhiên, ta lấy biến `i`, và sẽ lặp đến khi `i` đạt giới hạn nào đó. 
